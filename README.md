@@ -13,7 +13,7 @@ Main repo for graph rule discovery is being refactored and optimized, which will
 
 Install dependencies on Ubuntu
 GCC version: 7.4.0 or above, support of c++17 standard required.
-
+```bash
 Install mpi:
 
 sudo apt-get install openmpi-bin openmpi-doc libopenmpi-dev
@@ -32,4 +32,4 @@ cmake ../
 make all -j
 mv ./dataset/* ./build.
 
-
+```
