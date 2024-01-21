@@ -1,0 +1,62 @@
+DataGraphPath: 
+  GraphDir: ../dataset/dbpedia/
+  GraphName: dbpedia
+SuppPattern:
+  - VFile    : ./dbpedia_cluster_s1_e48_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_v.csv 
+    EFile    : ./dbpedia_cluster_s1_e48_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_e.csv 
+
+  - VFile    : ./dbpedia_cluster_s1_e49_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_v.csv 
+    EFile    : ./dbpedia_cluster_s1_e49_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_e.csv 
+    
+  - VFile    : ./dbpedia_cluster_s1_e50_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_v.csv 
+    EFile    : ./dbpedia_cluster_s1_e50_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_e.csv 
+    
+  - VFile    : ./dbpedia_cluster_s1_e51_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_v.csv 
+    EFile    : ./dbpedia_cluster_s1_e51_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_e.csv 
+    
+  - VFile    : ./dbpedia_cluster_s1_e52_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_v.csv 
+    EFile    : ./dbpedia_cluster_s1_e52_d1_sample_method_contain_all_small_cluster_0_sample_ratio_0.100000_e.csv 
+
+SupportSampleMethod: locality
+BatchSize: 2000
+Substructure:
+  # - Method: bfs
+  #   Radius: 1
+  # - Method: bfs
+  #   Radius: 2
+  - Method: bfs_limit_width
+    Radius: 2
+    WidthLimit: 1
+  - Method: bfs_limit_width
+    Radius: 2
+    WidthLimit: 2
+  - Method: bfs_limit_width
+    Radius: 2
+    WidthLimit: 3
+  - Method: random_walk
+    Depth: 2
+    Size: 10
+  - Method: random_walk
+    Depth: 2
+    Size: 30
+  # - Method: random_walk
+  #   Depth: 3
+  #   Size: 10
+  # - Method: random_walk
+  #   Depth: 3
+  #   Size: 30
+AdditionalName: e48_e49_e50_e51_e52_cluster_0
+SupportSampleFile: ./locality_dbpedia_all_e48_e49_e50_e51_e52.txt
+Ratios:
+  - 0.001
+  - 0.003
+  - 0.005
+  - 0.007
+  - 0.01
+  - 0.03
+  - 0.05
+  - 0.07
+  - 0.1
+  # - 0.3
+  # - 0.5
+  # - 0.7

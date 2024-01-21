@@ -1,0 +1,32 @@
+# RdfFile: ../dataset/linkedmdb-latest-dump/linkedmdb-latest-dump.nt
+# OutputGraph:
+#   GraphDir: ../dataset/linkedmdb-latest-dump/
+#   GraphName: linkedmdb_temp
+# AsVertexLabel:
+#   - <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+#   # - <http://www.w3.org/2000/01/rdf-schema#label>
+
+
+RdfFile: ../dataset/dblp1936_2013/dblp_2010_to_2013_remove.rdf
+OutputGraph:
+  GraphDir: ../dataset/dblp_2010_to_2013/
+  GraphName: dblp_2010_to_2013
+AsVertexLabel:
+  - <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+  # - <http://www.w3.org/2000/01/rdf-schema#label>
+
+
+# RdfFile: ../dataset/linkedmdb-latest-dump/linkedmdb-latest-dump.nt
+# OutputGraph:
+#   GraphDir: ../dataset/linkedmdb-latest-dump/
+#   GraphName: linkedmdb_temp
+
+# RdfFile: ../dataset/persondata_en/data
+# OutputGraph:
+#   GraphDir: ../dataset/persondata_en/
+#   GraphName: persondata_en
+
+# InputVFile: ../dataset/dbpedia.v
+# InputEFile: ../dataset/dbpedia.e
+# OutputGraphDir: ../dataset/dbpedia/
+# OutputGraphName: dbpedia

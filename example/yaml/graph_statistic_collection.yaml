@@ -1,0 +1,51 @@
+# Action: GraphStatisticCollection
+
+# GraphPath: 
+#   VFile : ../dataset/dblp_1980/dblp_v.csv
+#   EFile : ../dataset/dblp_1980/dblp_e.csv
+
+# StatisticToCollect:
+#   - vertex_label
+#   - edge_label
+#   - edge_type
+
+# OutputFile: dblp_1980_statistic_collection.txt
+
+# Action: GraphStatisticCollection
+
+# GraphPath: 
+#   VFile : ../dataset/linkedmdb-latest-dump/linkedmdb_temp_v.csv
+#   EFile : ../dataset/linkedmdb-latest-dump/linkedmdb_temp_e.csv
+
+# StatisticToCollect:
+#   - vertex_label
+#   - edge_label
+#   - edge_type
+
+# OutputFile: linkedmdb_temp_statistic_collection.txt
+
+# Action: GraphStatisticCollection
+
+# GraphPath: 
+#   VFile : ../dataset/imdb/imdb_v.csv
+#   EFile : ../dataset/imdb/imdb_e.csv
+
+# StatisticToCollect:
+#   - vertex_label
+#   - edge_label
+#   - edge_type
+
+# OutputFile: imdb_statistic_collection.txt
+
+Action: GraphStatisticCollection
+
+GraphPath: 
+  VFile : ../dataset/dbpedia/dbpedia_v.csv
+  EFile : ../dataset/dbpedia/dbpedia_e.csv
+
+StatisticToCollect:
+  - vertex_label
+  - edge_label
+  - edge_type
+
+OutputFile: dbpedia_statistic_collection.txt

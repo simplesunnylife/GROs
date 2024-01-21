@@ -1,0 +1,15 @@
+SrcPatternNames: 
+ - ./gar_dblp_1960_artical_of_journal_r3_10_feature_0.03/gar_level_3_pattern_10_tree_0_0
+ - ./gar_dblp_1960_artical_of_journal_r3_10_feature_0.03/gar_level_3_pattern_10_tree_0_1
+ - ./gar_dblp_1960_artical_of_journal_r3_10_feature_0.03/gar_level_3_pattern_10_tree_0_2
+DstPatternNames:
+ - ./gar_dblp_1960_all_graph//gar_level_5_pattern_991_tree_0_0
+ - ./gar_dblp_1960_all_graph//gar_level_5_pattern_991_tree_0_1
+ - ./gar_dblp_1960_all_graph//gar_level_5_pattern_991_tree_0_2
+ExportLog: same
+
+# SrcPatternDir: ./gar_dblp_1960_artical_of_journal_r3_10_feature_0.03/
+# SrcPatternPrefix: gar_level_3
+# DstPatternDir: ./gar_dblp_1960_all_graph/
+# DstPatternPrefix: gar_level_3
+# ExportLog: cannot_find

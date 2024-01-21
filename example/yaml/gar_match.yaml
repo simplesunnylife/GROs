@@ -1,0 +1,17 @@
+DataGraphPath: 
+  VFile : ../dataset/dblp_1980/dblp_v.csv
+  EFile : ../dataset/dblp_1980/dblp_e.csv
+  
+GarPath:
+  VFile : ../../Experiments/gar/dblp_1980/minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_25_v.csv
+  EFile : ../../Experiments/gar/dblp_1980/minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_25_e.csv
+  XFile : ../../Experiments/gar/dblp_1980/minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_25_x.csv
+  YFile : ../../Experiments/gar/dblp_1980/minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_25_y.csv
+
+XSuppLimit:  10000
+XYSuppLimit: 10000
+
+TimeLimit: 10000.0      # unit: second
+TimeLimitPerSupp: 10.0  # unit: second
+
+TimeLogFile: ./gar_match.timelog

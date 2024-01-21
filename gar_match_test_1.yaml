@@ -1,0 +1,17 @@
+DataGraphPath: 
+  VFile : /home/fwz/grape-gundam/build/target_v.csv
+  EFile : /home/fwz/grape-gundam/build/target_e.csv
+  
+GarPath:
+  VFile : /home/fwz/grape-gundam/build/query_v.csv
+  EFile : /home/fwz/grape-gundam/build/query_e.csv
+  XFile : /home/fwz/grape-gundam/build/query_x.csv
+  YFile : /home/fwz/grape-gundam/build/query_y.csv
+
+XSuppLimit:  1
+XYSuppLimit: 1
+
+TimeLimit: 10000.0      # unit: second
+TimeLimitPerSupp: 10.0  # unit: second
+
+TimeLogFile: ./gar_match.timelog

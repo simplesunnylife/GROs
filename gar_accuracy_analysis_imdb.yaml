@@ -1,0 +1,981 @@
+DataGraph:
+  VFile : ../graph_dataset/imdb/imdb_v.csv
+  EFile : ../graph_dataset/imdb/imdb_e.csv
+
+GARPath:
+ #度为6
+  # - VFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_v.csv
+  #   EFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_e.csv
+  #   XFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_x.csv
+  #   YFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_y.csv
+# #度为6 100 <l 101 34 38 2 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1001_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1001_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1001_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1001_y.csv
+#度为6
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1002_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1002_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1002_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1002_y.csv
+#度为6: <l 101 36 1 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1003_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1003_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1003_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1003_y.csv
+# #度为6 <l 101 36 34 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1004_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1004_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1004_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1004_y.csv
+#度为6 <l 101 34 38 2 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1005_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1005_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1005_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1005_y.csv
+# 度为6<l 101 35 1 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1006_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1006_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1006_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1006_y.csv
+#度为6 <l 101 35 28 0 >
+  # - VFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_0_v.csv
+  #   EFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_0_e.csv
+  #   XFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_0_x.csv
+  #   YFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_0_y.csv
+# #度为6 <l 101 35 34 1 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1008_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1008_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1008_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1008_y.csv
+#度为6 <l 101 35 9 0 >(No)
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1009_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1009_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1009_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1009_y.csv
+#度为4 <l 101 35 34 0 >
+  # - VFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_v.csv
+  #   EFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_e.csv
+  #   XFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_x.csv
+  #   YFile : ../gar/minimized_imdb_5_1_triple_larger_10000_supp_1000_timelimit_6000_conf_0.4/dst_cover_rule_11_y.csv
+#度为6 <l 101 36 34 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1010_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1010_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1010_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1010_y.csv
+#度为6 <l 101 35 34 1 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1011_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1011_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1011_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1011_y.csv
+#度为6 <l 101 35 1 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1012_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1012_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1012_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1012_y.csv
+# # #度为6 <l 101 35 34 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1013_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1013_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1013_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1013_y.csv
+#度为6 <l 101 35 1 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1014_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1014_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1014_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1014_y.csv
+#度为6 <l 101 35 1 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1015_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1015_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1015_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1015_y.csv
+# #度为6 <l 101 35 34 1 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1016_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1016_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1016_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1016_y.csv
+#度为6 <l 101 36 1 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1017_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1017_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1017_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1017_y.csv
+# #度为6  <l 101 35 34 1 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1018_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1018_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1018_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1018_y.csv
+# #度为6  <l 101 35 34 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1019_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1019_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1019_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1019_y.csv
+# #度为4 <l 101 35 34 1 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_101_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_101_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_101_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_101_y.csv
+#度为6 <l 101 35 28 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1020_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1020_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1020_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1020_y.csv
+# #度为6 <l 101 35 34 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1021_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1021_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1021_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1021_y.csv
+# #度为6 <l 101 36 34 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1022_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1022_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1022_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1022_y.csv
+# #度为6 <l 101 36 34 0 >
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1023_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1023_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1023_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1023_y.csv
+#度为6 <l 101 35 34 0 >
+  # - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1024_v.csv
+  #   EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1024_e.csv
+  #   XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1024_x.csv
+  #   YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1024_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1025_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1025_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1025_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1025_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1026_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1026_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1026_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1026_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1027_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1027_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1027_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1027_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1028_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1028_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1028_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1028_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1029_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1029_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1029_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1029_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_102_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_102_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_102_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_102_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1030_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1030_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1030_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1030_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1031_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1031_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1031_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1031_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1032_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1032_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1032_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1032_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1033_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1033_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1033_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1033_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1034_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1034_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1034_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1034_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1035_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1035_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1035_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1035_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1036_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1036_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1036_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1036_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1037_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1037_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1037_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1037_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1038_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1038_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1038_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1038_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1039_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1039_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1039_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1039_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_103_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_103_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_103_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_103_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1040_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1040_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1040_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1040_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1041_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1041_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1041_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1041_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1042_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1042_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1042_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1042_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1043_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1043_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1043_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1043_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1044_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1044_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1044_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1044_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1045_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1045_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1045_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1045_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1046_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1046_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1046_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1046_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1047_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1047_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1047_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1047_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1048_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1048_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1048_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1048_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1049_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1049_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1049_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1049_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_104_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_104_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_104_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_104_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1050_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1050_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1050_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1050_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1051_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1051_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1051_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1051_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1052_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1052_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1052_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1052_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1053_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1053_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1053_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1053_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1054_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1054_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1054_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1054_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1055_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1055_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1055_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1055_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1056_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1056_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1056_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1056_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1057_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1057_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1057_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1057_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1058_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1058_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1058_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1058_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1059_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1059_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1059_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1059_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_105_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_105_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_105_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_105_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1060_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1060_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1060_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1060_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1061_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1061_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1061_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1061_y.csv
+# #度为6
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1062_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1062_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1062_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1062_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_106_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_106_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_106_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_106_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_107_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_107_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_107_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_107_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1085_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1085_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1085_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1085_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1086_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1086_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1086_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1086_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_108_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_108_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_108_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_108_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1094_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1094_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1094_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1094_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_109_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_109_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_109_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_109_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_10_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_10_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_10_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_10_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1100_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1100_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1100_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1100_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1101_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1101_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1101_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1101_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_110_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_110_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_110_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_110_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_111_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_111_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_111_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_111_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_112_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_112_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_112_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_112_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1131_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1131_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1131_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1131_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1139_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1139_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1139_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1139_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_113_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_113_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_113_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_113_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1140_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1140_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1140_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1140_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1146_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1146_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1146_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1146_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1147_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1147_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1147_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1147_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_114_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_114_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_114_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_114_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1155_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1155_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1155_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1155_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1156_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1156_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1156_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1156_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_115_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_115_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_115_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_115_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1161_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1161_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1161_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1161_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1162_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1162_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1162_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1162_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_116_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_116_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_116_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_116_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_117_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_117_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_117_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_117_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_118_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_118_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_118_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_118_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1193_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1193_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1193_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1193_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_119_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_119_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_119_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_119_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_11_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_11_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_11_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_11_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_120_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_120_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_120_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_120_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1213_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1213_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1213_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1213_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_121_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_121_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_121_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_121_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_122_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_122_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_122_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_122_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_123_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_123_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_123_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_123_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1245_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1245_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1245_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1245_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_124_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_124_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_124_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_124_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1257_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1257_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1257_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1257_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_125_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_125_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_125_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_125_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1260_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1260_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1260_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1260_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1269_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1269_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1269_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1269_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_126_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_126_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_126_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_126_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_127_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_127_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_127_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_127_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1285_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1285_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1285_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1285_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_128_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_128_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_128_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_128_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1298_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1298_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1298_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1298_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_129_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_129_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_129_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_129_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_12_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_12_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_12_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_12_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_130_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_130_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_130_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_130_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_131_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_131_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_131_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_131_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_132_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_132_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_132_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_132_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_133_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_133_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_133_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_133_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_134_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_134_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_134_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_134_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_135_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_135_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_135_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_135_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_136_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_136_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_136_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_136_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1377_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1377_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1377_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1377_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_137_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_137_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_137_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_137_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_138_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_138_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_138_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_138_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_139_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_139_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_139_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_139_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_13_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_13_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_13_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_13_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_140_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_140_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_140_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_140_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1412_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1412_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1412_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1412_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1413_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1413_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1413_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1413_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1417_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1417_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1417_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1417_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_141_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_141_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_141_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_141_y.csv
+# #度为5
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_142_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_142_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_142_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_142_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1470_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1470_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1470_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1470_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_14_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_14_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_14_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_14_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_15_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_15_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_15_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_15_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_163_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_163_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_163_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_163_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_16_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_16_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_16_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_16_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_17_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_17_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_17_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_17_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_182_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_182_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_182_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_182_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_18_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_18_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_18_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_18_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1958_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1958_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1958_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_1958_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_19_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_19_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_19_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_19_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_20_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_20_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_20_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_20_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_21_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_21_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_21_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_21_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_221_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_221_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_221_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_221_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_22_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_22_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_22_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_22_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_234_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_234_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_234_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_234_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_23_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_23_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_23_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_23_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_242_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_242_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_242_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_242_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_24_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_24_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_24_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_24_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_253_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_253_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_253_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_253_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_254_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_254_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_254_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_254_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_25_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_25_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_25_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_25_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_26_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_26_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_26_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_26_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_278_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_278_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_278_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_278_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_27_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_27_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_27_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_27_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_28_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_28_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_28_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_28_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_29_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_29_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_29_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_29_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_2_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_2_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_2_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_2_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_302_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_302_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_302_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_302_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_30_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_30_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_30_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_30_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_31_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_31_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_31_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_31_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_32_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_32_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_32_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_32_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_335_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_335_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_335_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_335_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_33_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_33_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_33_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_33_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_346_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_346_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_346_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_346_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_34_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_34_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_34_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_34_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_359_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_359_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_359_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_359_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_35_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_35_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_35_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_35_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3695_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3695_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3695_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3695_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_36_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_36_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_36_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_36_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_37_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_37_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_37_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_37_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_38_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_38_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_38_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_38_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_394_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_394_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_394_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_394_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_39_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_39_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_39_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_39_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_3_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_40_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_40_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_40_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_40_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_41_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_41_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_41_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_41_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_42_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_42_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_42_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_42_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_43_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_43_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_43_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_43_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_44_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_44_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_44_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_44_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_455_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_455_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_455_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_455_y.csv
+# #度为4
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_45_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_45_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_45_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_45_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_4_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_4_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_4_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_4_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_5_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_5_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_5_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_5_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_6_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_6_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_6_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_6_y.csv
+# #度为3
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_7_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_7_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_7_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_7_y.csv
+# #度为3
+  - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_8_v.csv
+    EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_8_e.csv
+    XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_8_x.csv
+    YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_8_y.csv
+# # #度为3(buxing )
+#   - VFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_9_v.csv
+#     EFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_9_e.csv
+#     XFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_9_x.csv
+#     YFile : ../gar/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level/gar_imdb_5_2_triple_larger_100000_supp_1000_time_limit_100gar_level_9_y.csv
+
+VertexesPairNum: 10000
+
+TestDataType: both
+#TestDataType: negative
+
+# VertexesPairNum: 10000
+
+# TestDataType: positive
+
+OutputLogFile: ./gar_accuracy_analysis_imdb_both.log

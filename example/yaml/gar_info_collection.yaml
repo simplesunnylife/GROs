@@ -1,0 +1,12 @@
+Action: GarInfoCollection
+GarSetDir: ./gar_yago_3_2_with_constant_edge_type_larger_1000_supp_1_gar_set_freq_bound_0.0005/
+
+InfoToCollect:
+  - vertex_num
+  - edge_num
+  - is_link
+  - is_star
+  - x_literal_num
+  - y_literal_num
+
+OutputFile: gar_yago_3_2_with_constant_edge_type_larger_1000_supp_1_gar_set_freq_bound_0.0005_info_collect.txt

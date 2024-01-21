@@ -1,0 +1,20 @@
+DataGraphPath: 
+  VFile : ../dataset/dblp_1980/dblp_v.csv
+  EFile : ../dataset/dblp_1980/dblp_e.csv
+  
+MatchSemantics: homo
+
+PatternPath:
+  - VFile : ./minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_v.csv
+    EFile : ./minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_e.csv
+  #   MatchFile: minimized_gar_dblp_1980_conf_0.5_dst_cover_rule_match_set.csv
+
+  - VFile : ./minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_10_v.csv
+    EFile : ./minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_10_e.csv
+    # MatchFile: minimized_gar_dblp_1980_conf_0.5_dst_cover_rule_10_match_set.csv
+   
+  - VFile : ./minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_13_v.csv
+    EFile : ./minimized_gar_dblp_1980_conf_0.5/dst_cover_rule_13_e.csv
+    # MatchFile: ./minimized_gar_dblp_1980_conf_0.5_dst_cover_rule_13_match_set.csv
+
+TimeLogFile: ./pattern_match.timelog

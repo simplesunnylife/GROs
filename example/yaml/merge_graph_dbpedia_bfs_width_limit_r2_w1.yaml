@@ -1,0 +1,136 @@
+MergeConfigure: 
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.001000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.001000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.001000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.001000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.001000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.001000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.001000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.001000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.001000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.001000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.001000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.001000_e.csv
+      
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.003000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.003000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.003000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.003000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.003000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.003000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.003000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.003000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.003000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.003000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.003000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.003000_e.csv
+      
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.005000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.005000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.005000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.005000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.005000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.005000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.005000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.005000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.005000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.005000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.005000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.005000_e.csv
+      
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.007000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.007000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.007000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.007000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.007000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.007000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.007000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.007000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.007000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.007000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.007000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.007000_e.csv
+      
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.010000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.010000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.010000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.010000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.010000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.010000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.010000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.010000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.010000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.010000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.010000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.010000_e.csv
+      
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.030000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.030000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.030000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.030000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.030000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.030000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.030000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.030000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.030000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.030000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.030000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.030000_e.csv
+      
+  - GraphPathToMerge:
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.050000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.050000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.050000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.050000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.050000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.050000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.050000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.050000_e.csv
+      - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.050000_v.csv
+        EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.050000_e.csv
+    MergedGraphPath:
+      VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.050000_v.csv
+      EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.050000_e.csv
+      
+  # - GraphPathToMerge:
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.070000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.070000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.070000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.070000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.070000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.070000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.070000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.070000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.070000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.070000_e.csv
+  #   MergedGraphPath:
+  #     VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.070000_v.csv
+  #     EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.070000_e.csv
+      
+  # - GraphPathToMerge:
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.100000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e48_cluster_0_bfs_width_limit_r2_w1_0.100000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.100000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e49_cluster_0_bfs_width_limit_r2_w1_0.100000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.100000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e50_cluster_0_bfs_width_limit_r2_w1_0.100000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.100000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e51_cluster_0_bfs_width_limit_r2_w1_0.100000_e.csv
+  #     - VFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.100000_v.csv
+  #       EFile: ../dataset/dbpedia/dbpedia_locality_e52_cluster_0_bfs_width_limit_r2_w1_0.100000_e.csv
+  #   MergedGraphPath:
+  #     VFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.100000_v.csv
+  #     EFile: ../dataset/dbpedia/dbpedia_locality_e48_e49_e50_e51_e52_merged_cluster_0_bfs_width_limit_r2_w1_5x0.100000_e.csv
+      

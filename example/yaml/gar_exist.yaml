@@ -1,0 +1,11 @@
+SrcGarDir: ./gar_dblp_1980_all_graph_5_2_supp_1000/
+SrcRulePrefix: gar_level_3
+DstGarDir: ./gar_dblp_1980_all_graph_3_1_supp_100/
+DstulePrefix: gar_level_3
+ExportLog: cannot_find
+
+# SrcGarNames: 
+#  - ./gar_dblp_1980_all_graph_5_2_supp_1000_gar_level_3_3
+# DstGarNames:
+#  - ./gar_dblp_1960_all_graph//gar_level_5_pattern_991_tree_0_0
+# ExportLog: same
