@@ -1,8 +1,0 @@
-InputGraphPath:
-  VFile: ../dataset/dblp_1980/dblp_v.csv
-  EFile: ../dataset/dblp_1980/dblp_e.csv
-OutputGraphPath:
-  VFile: ../dataset/dblp_1980/dblp_duplicated_v.csv
-  EFile: ../dataset/dblp_1980/dblp_duplicated_e.csv
-DuplicateVertexLabel: 2 # paper
-DuplicateVertexSize: 1000

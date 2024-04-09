@@ -19,6 +19,190 @@ namespace gor {
 
 template <typename GraphPatternType, 
           typename    DataGraphType>
+size_t ExtendGORMatch(GraphOracleRule<GraphPatternType, 
+                                   DataGraphType>& gor,
+  const typename 
+    GUNDAM::VertexHandle<GraphPatternType>::type& pivot,
+                                   DataGraphType& data_graph,
+    const std::map<typename GUNDAM::VertexHandle<GraphPatternType>::type,
+       std::vector<typename GUNDAM::VertexHandle<   DataGraphType>::type>>& candidate_set_for_pivot_vertex,
+    const std::map<typename GUNDAM::VertexHandle<GraphPatternType>::type,
+       std::vector<typename GUNDAM::VertexHandle<   DataGraphType>::type>>& candidate_set_for_all_vertexes,
+       std::vector<
+          std::map<typename GUNDAM::VertexHandle<GraphPatternType>::type,
+       std::vector<typename GUNDAM::VertexHandle<   DataGraphType>::type>>>& maximal_match_set,
+            double time_limit = -1.0) {
+  // Initial steps remain the same...
+  using GraphPatternVertexHandle = typename GUNDAM::VertexHandle<GraphPatternType>::type;
+  using    DataGraphVertexHandle = typename GUNDAM::VertexHandle<   DataGraphType>::type;
+
+  using CandidateSet = std::map<GraphPatternVertexHandle,
+                       std::vector<DataGraphVertexHandle>>;
+
+  // 声明pivot节点
+  assert(pivot);
+  assert(pivot == gor.pattern().FindVertex(pivot->id()));
+
+  auto begin_time = std::time(NULL);
+
+  // 检查和获取支点候选集:
+  assert( candidate_set_for_pivot_vertex.find(pivot)
+       != candidate_set_for_pivot_vertex.end());
+  assert(!candidate_set_for_pivot_vertex.find(pivot)->second.empty() );
+
+  const std::vector<DataGraphVertexHandle>& 
+      pivot_candidate = candidate_set_for_pivot_vertex.find(pivot)->second;
+
+  assert(!pivot_candidate.empty());
+
+  // 构建右手边（RHS）图模式:
+  GraphPatternType rhs_pattern(
+    gar::_gar_supp::LiteralPattern(gor,  true));
+
+  // 获取并排序 RHS 图模式中的顶点:
+  std::vector<GraphPatternVertexHandle> rhs_vertex_handle_set;
+  for (auto vertex_it = rhs_pattern.VertexBegin();
+           !vertex_it.IsDone();
+            vertex_it++) {
+    rhs_vertex_handle_set.emplace_back(gor.pattern().FindVertex(vertex_it->id()));
+    assert(rhs_vertex_handle_set.back());
+  }
+  std::sort(rhs_vertex_handle_set.begin(),
+            rhs_vertex_handle_set.end());
+
+  // 声明Assoc为空
+  size_t count = 0;
+
+  // 遍历每个pivot候选项
+  for (const auto& pivot_candidate_handle : candidate_set_for_pivot_vertex.find(pivot)->second) {
+    // 检查是否达到了时间限制
+    CandidateSet pivoted_candidate_set(candidate_set_for_all_vertexes);
+    pivoted_candidate_set[pivot].clear();
+    pivoted_candidate_set[pivot].emplace_back(pivot_candidate_handle);
+
+    // 使用某种匹配算法细化候选集
+    if (!GUNDAM::_dp_iso_using_match::RefineCandidateSet(gor.pattern(), data_graph, pivoted_candidate_set, pivot)) {
+      continue; // 如果当前候选集不满足条件，跳过此次循环
+    }
+
+        // 如果找到符合条件的匹配，增加count
+    count += 1;  // 假设每个有效的pivot候选代表一个唯一的匹配
+        // 此处可以根据需要扩展逻辑，以处理找到的匹配
+  }
+  return count;
+
+}
+
+//   assert( candidate_set_for_pivot_vertex.find(pivot)
+//        != candidate_set_for_pivot_vertex.end());
+//   assert(!candidate_set_for_pivot_vertex.find(pivot)->second.empty() );
+
+//   const std::vector<DataGraphVertexHandle>& 
+//       pivot_candidate = candidate_set_for_pivot_vertex.find(pivot)->second;
+
+//   assert(!pivot_candidate.empty());
+
+//   GraphPatternType rhs_pattern(
+//     gar::_gar_supp::LiteralPattern(gor,  true));
+
+//   std::vector<GraphPatternVertexHandle> rhs_vertex_handle_set;
+//   for (auto vertex_it = rhs_pattern.VertexBegin();
+//            !vertex_it.IsDone();
+//             vertex_it++) {
+//     rhs_vertex_handle_set.emplace_back(gor.pattern().FindVertex(vertex_it->id()));
+//     assert(rhs_vertex_handle_set.back());
+//   }
+//   std::sort(rhs_vertex_handle_set.begin(),
+//             rhs_vertex_handle_set.end());
+
+//   size_t count = 0;
+
+//   // 修改逻辑
+//   for (const auto& pivot_candidate_handle 
+//                  : pivot_candidate) {
+
+//     if (time_limit > 0 
+//      && time_limit < (std::time(NULL) - begin_time)) {
+//       // has reached time limit
+//       break;
+//     }
+    
+//     CandidateSet pivoted_candidate_set(
+//                          candidate_set_for_all_vertexes);
+//     assert(pivoted_candidate_set.find(pivot)
+//         != pivoted_candidate_set.end());
+//     pivoted_candidate_set[pivot].clear();
+//     assert(pivoted_candidate_set.find(pivot)->second.empty());
+//     pivoted_candidate_set[pivot].emplace_back(pivot_candidate_handle);
+
+//     if (!GUNDAM::_dp_iso_using_match
+//                ::RefineCandidateSet(gor.pattern(),
+//                                        data_graph, 
+//                             pivoted_candidate_set, pivot)) {
+//       continue;
+//     }
+//     assert(pivoted_candidate_set.size() == gor.pattern().CountVertex());
+
+//     size_t pivoted_count = 1;
+//     for (const auto& [query_vertex_handle,
+//                       dst_candidate_set] : pivoted_candidate_set) {
+//       if (!std::binary_search(rhs_vertex_handle_set.begin(),
+//                               rhs_vertex_handle_set.end(),
+//                             query_vertex_handle)) {
+//         continue;
+//       }
+//       // util::Debug("wenzhi here!");
+//       pivoted_count *= dst_candidate_set.size();
+//     }
+
+//     maximal_match_set.emplace_back(std::move(pivoted_candidate_set));
+//     count += pivoted_count;
+//   }
+
+
+//   // New logic to handle unary predicates and derive associations
+//   for (auto& match : maximal_match_set) {
+//     bool matchSatisfiesQuery = true;
+    
+//     // Handle unary predicates in the query
+//     for (auto& [query_vertex_handle, target_candidates] : match) {
+//       // Example unary predicate: query_vertex_handle.A == c
+//       // Implement your logic to check if the predicate is satisfied
+//       // and update matchSatisfiesQuery accordingly
+//     }
+
+//     // Handle binary predicates in the query
+//     // Example binary predicate: x.A == y.B
+//     // Implement your logic to compare attributes of connected vertices in the pattern
+//     // and update matchSatisfiesQuery accordingly
+
+//     // If the current match satisfies all the predicates in the query, derive associations
+//     if (matchSatisfiesQuery) {
+//       Assoc newAssoc;
+//       // Populate newAssoc based on the current match and the query structure
+//       // This might involve setting attributes in newAssoc based on the attributes of the vertices in the match
+      
+//       assoc_set.push_back(newAssoc); // Add the derived association to assoc_set
+//     }
+//   }
+
+//   return assoc_set.size(); // Return the number of derived associations
+// }
+
+
+
+
+// GORMatch 函数模板
+// 第一个 GORMatch 版本：这是主要的匹配函数，它接受一个图规则对象 gor，一个中心顶点 pivot，一个数据图 data_graph，候选集合（包括针对中心顶点的和所有顶点的候选集合），用于存储最大匹配集的向量 maximal_match_set，以及一个时间限制 time_limit。该函数通过在数据图中查找与图模式相匹配的子图来执行图模式匹配。
+
+// 第二个 GORMatch 版本：这个版本是第一个版本的简化调用，它将中心顶点的候选集合同时用作所有顶点的候选集合。
+
+// 第三个 GORMatch 版本：这个版本进一步简化调用，它先通过 GUNDAM::Simulation 函数生成候选集合，然后调用第一个 GORMatch 版本。
+
+// 第四个 GORMatch 版本：这个版本仅接受图规则对象、中心顶点和数据图作为参数，自动创建一个空的 maximal_match_set 并调用第一个 GORMatch 版本。
+
+template <typename GraphPatternType, 
+          typename    DataGraphType>
 size_t GORMatch(GraphOracleRule<GraphPatternType, 
                                    DataGraphType>& gor,
   const typename 

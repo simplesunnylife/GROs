@@ -1,0 +1,223 @@
+DataGraphPath: 
+# 定义图数据路径
+  VFile : ../../graph_dataset/dblp_1980/dblp_v.csv
+  EFile : ../../graph_dataset/dblp_1980/dblp_e.csv
+
+
+
+GorPath:
+# 定义规则文件
+#度 : 4
+  - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_v.csv
+    EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_e.csv
+    XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_x.csv
+    YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_20_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_20_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_20_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_20_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_21_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_21_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_21_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_21_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_22_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_22_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_22_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_22_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_23_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_23_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_23_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_23_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_24_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_24_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_24_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_24_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_25_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_25_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_25_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_25_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_26_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_26_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_26_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_26_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_4_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_5_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_6_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_7_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_8_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_9_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_10_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_11_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_12_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_13_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_14_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_15_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_16_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_17_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_18_y.csv
+# #度 : 4
+#   - VFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_v.csv
+#     EFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_e.csv
+#     XFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_x.csv
+#     YFile : ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_19_y.csv
+
+
+
+#WorkloadBalance:
+#  BalancePeriod: 100000000
+#  PivotedCandidateBalanceSize: 10000000
+
+
+TimeLogFile: ./gor_match_dblp_6_12_4_120.timelog

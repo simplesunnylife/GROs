@@ -1,1 +1,0 @@
-mpirun ./build/gar_discover --yaml_file ${yaml_file_name}

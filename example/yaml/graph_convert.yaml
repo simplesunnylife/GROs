@@ -1,4 +1,0 @@
-DataGraphPath: 
-  GraphDir:  ../dataset/dblp_1970/
-  GraphName: dblp
-ConvertMethod: with_bidir_edge_to_edge

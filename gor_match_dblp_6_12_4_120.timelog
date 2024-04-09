@@ -1,0 +1,5 @@
+time log of: ./example/gor_match_dblp_4_40.yaml
+time log of: ./example/gor_match_dblp_4_40.yaml
+ - load graph: 1.955547 sec
+# gor # vfile: ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_v.csv # efile: ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_e.csv # xfile: ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_x.csv # yfile: ../../gar/gar_dblp_1980_locality_s2_e1001_d5_random_walk_d2_s30_0.1_all_graph_15_1_v6_supp_10_app_driven_with_full_restrict_7_edge_type_8_nodes_no_time_limit/gar_3_y.csv # pivot: 0 match count: 349
+ - distributed gor match: 1.308014 sec

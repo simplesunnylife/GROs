@@ -1,7 +1,0 @@
-DataGraph: 
-  - GraphDir:  ../dataset/dblp_1980/
-    GraphName: dblp
-Action: calculate_support
-RulePrefix: gar_level_
-GarDirs:
-  - ./gar_dblp_1980_all_graph_5_2_supp_1000/
